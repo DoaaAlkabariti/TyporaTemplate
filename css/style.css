@@ -1,0 +1,723 @@
+body{
+  font-family: 'Century Gothic','TeXGyreAdventor',"STHeiti",sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  direction:ltr;
+  color:#000000;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+/************************************properities of mainpage section*********************************/
+.header {
+  width: 100%;
+  height:100%;
+  text-align: center;
+  background: #fbfbfb;
+  z-index: 20;
+  border-bottom: 1px solid #ddd;
+}
+
+.header .content{
+  padding-top: 300px;
+  padding-bottom: 70px;
+  box-sizing: border-box;
+}
+
+.header h2{
+  font-size: 48px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0 0 34px;
+  padding: 0 30px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.slogon {
+  font-family: "Raleway",'Century Gothic','TeXGyreAdventor',sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #999;
+  text-align: center;
+}
+
+p {
+   margin: 0 0 20px;
+}
+
+.scroll-down-div {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #4d4d4d;
+    cursor: pointer;
+    height: 95px;
+    font-size: 18px;
+    margin-top: -20px;
+    box-sizing: border-box;
+  }
+
+.header a{
+  text-decoration: none;
+  color: #999;
+}
+  /*************************************properities of navBar section*********************************/
+.navBar{
+  width:100%;
+  position: fixed;
+  top: 0px;
+  height: 70px;
+  padding-top: 15px;
+  box-sizing: border-box;
+  z-index: 10;
+  margin-right: -100px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+h3{
+  margin-left: -138px;
+  box-sizing: border-box;
+}
+
+.clear{
+  clear: both;
+}
+
+.logo{
+  width: 30%;
+  height: auto;
+  float: left;
+  font-size: 2em;
+  margin-left: 40px;
+  box-sizing: border-box;
+}
+
+.menu{
+  width:70%;
+  height: auto;
+  float: right;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  display: inline-block;
+  user-select: none;
+  list-style: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  margin-top: -47px;
+  margin-right: -27px;
+}
+
+.menu ul li{
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 30px;
+  box-sizing: border-box;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color:#999;
+  padding-bottom: 5px;
+  padding: 2px;
+  box-sizing: border-box;
+  border:1px solid white;
+}
+
+.menu ul li a:hover,
+.menue ul li a.active{
+  background: rgb(238, 238, 238);
+}
+
+.content{
+  width: 620px;
+  height: 700px;
+}
+
+.imgSize{
+  width: 620px;
+  height: 600px;
+}
+
+.function .menu {
+/* float: left; /
+/ margin-left: 185px; */
+width: 100%;
+text-align: center;
+}
+/*************************************properities of features section*********************************/
+.feature {
+  width:100%;
+  padding-top: 35px;
+  margin-left:10px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+  border-bottom: 1px dashed rgb(170, 170, 170)
+}
+
+.row {
+  font-family: 'FreeSans',' Arimo', "Droid Sans", Helvetica, Arial, sans-serif;
+  display: inline-block;
+  width:100%;
+  height: auto;
+}
+
+.descDiv{
+   width:50%;
+   height: 500px;
+   float: left;
+   color: rgb(136, 136, 136);
+   font-family: "Century Gothic", TeXGyreAdventor, sans-serif;
+   padding: 0 30px;
+   box-sizing: border-box;
+   position: relative;
+}
+
+.text-content{
+   padding-left:20px;
+   max-width: 500px;
+   padding-right: 20px;
+   box-sizing: border-box;
+}
+
+.descDiv h3{
+   font-size: 36px;
+   color: black;
+   font-weight: lighter;
+}
+
+.descDiv p {
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0px 0px 20px;
+    box-sizing: border-box;
+}
+
+.descDiv h4{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    color: rgb(52, 64, 72);
+    white-space: pre-wrap;
+    box-sizing: border-box;
+}
+
+.fa{
+    width: 26px;
+    text-align: center;
+    display: inline-block;
+    text-rendering: auto;
+}
+
+.videoDiv{
+    width:49%;
+    height: 500px;
+    float: right;
+}
+
+.video{
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  padding-left: 50px;
+  display: inline-block;
+  margin-top: 47px;
+}
+
+video {
+    max-width: 560px;
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+  }
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/*************************************properities of function section*********************************/
+.function{
+  width:100%;
+  border-bottom: 1px dashed rgb(170, 170, 170);
+  padding-bottom: 100px;
+  box-sizing: border-box;
+}
+
+h3{
+  font-weight: lighter;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.function .menu{
+  float: left;
+  width: 100%;
+}
+
+.function .menu ul li {
+margin-left: 10px;
+}
+
+.content{
+  max-width:600px;
+   margin:0 auto;
+}
+
+.mySlides{
+  width:100%;
+  border-radius: 6px;
+}
+
+ .internalSpan{
+  color: rgb(153, 0, 0);
+}
+
+.function .slogon{
+cursor:pointer;
+width: 100%;
+}
+/*************************************properities of action section*********************************/
+.action{
+  width:100%;
+  border-bottom: 1px dashed rgb(170, 170, 170);
+  padding-bottom: 100px;
+  box-sizing: border-box;
+}
+
+/* .action .container{
+  width:980px;
+} */
+
+.action .row{
+float: left;
+}
+
+.gride{
+  width: 30%;
+  height: auto;
+  float:left;
+  display: inline-block;
+  padding: -9px;
+  box-sizing: border-box;
+  margin-left: 43px;
+}
+
+.img{
+  width:265px;
+  height: 96px;
+}
+
+h5{
+  font-size: 16px;
+  color: rgb(84, 102, 115);
+  line-height: 36px;
+  min-width: 120px;
+  text-align: left;
+  margin-bottom:5px;
+  margin-top: 2px;
+  box-sizing: border-box;
+}
+
+.desc{
+  font-size: 12px;
+  line-height: 1.45em;
+  color: rgb(136, 136, 136);
+}
+
+/*************************************properities of theme section*********************************/
+.theme {
+  overflow: hidden;
+  height: 800px;
+}
+
+#show-css-preview ~ .theme-preview {
+  margin-top: 60px;
+  transition: 1s ease-in-out;
+}
+
+.groupOfImages{
+  margin-left: 622px;
+}
+
+.image{
+  max-width:600px;
+  height:auto;
+  margin-right:-500px;
+  margin-left: -400px;
+}
+
+.secondGroupOfImages{
+  display: none;
+}
+
+
+/*************************************properities of likes section*********************************/
+.likes{
+  width:100%;
+  height:300px;
+  background-image: url('../images/background.jbg');
+  background-size: cover;
+  text-align: center;
+  margin-top: -160px;
+}
+
+
+/* Slideshow container */
+.slideshow{
+  position: relative;
+  background: rgb(0,0,0);
+  height: 300px;
+  width: 1349px;
+}
+
+/* Slides */
+.mySlide {
+  display: none;
+  padding: 80px;
+  text-align: center;
+  color: white;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+/* italic font style
+ */
+q {
+  font-style: italic;
+}
+
+.author {
+  color: cornflowerblue;
+}
+
+/*************************************properities of download section*********************************/
+.download {
+    font-family: 'museo-slab',Georgia,"Times New Roman",Times,serif;
+    position: relative;
+    background-color: #f6f6f6;
+    color: #4d4d4d;
+    text-align: center;
+    overflow-y: hidden;
+    font-size: 14px;
+    margin-top:-20px;
+    width: 100%;
+    height: 510px;
+    padding-bottom: 50px;
+  }
+
+  h2 {
+    font-family:'Century Gothic', sans-serif;
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 48px;
+    margin: 0 0 34px;
+    padding: 0 30px;
+    text-align: center;
+  }
+
+.content-resizer{
+    position: absolute;
+    width: 100%;
+    top: 200px;
+    min-height: 200px;
+    top: 61.5px;
+  }
+
+.div{
+    max-width:600px;
+    margin:0 auto;
+  }
+
+.sub-group{
+   margin-top:80px;
+ }
+
+form{
+  display: block;
+}
+
+#atom-button{
+  background:#448CCB !important;
+}
+
+.linux-button{
+  background:#5c4261 !important;
+}
+
+.textDiv{
+  max-width:600px;
+  margin:0 auto;
+  margin-top:20px;
+}
+
+.sub-group .button {
+    color: #fff !important;
+    background-color: #2a3333 !important;
+    width: inherit !important;
+    border: 0;
+  }
+
+.sub-group input,
+.sub-group .button,
+#mc-embedded-subscribe {
+    display: inline-block !important;
+    margin: 10px;
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 14px 22px;
+  }
+
+.download p {
+   font-size:0.9em; color: gray;
+  }
+/*************************************properities of contact section*********************************/
+.contact{
+    background-color: rgb(51, 51, 51);
+    color: rgb(238, 238, 238);
+    text-align: center;
+    height: 600px;
+  }
+
+.content-resizer {
+    position: absolute;
+    width: 100%;
+    top: 200px;
+    min-height: 200px;
+  }
+
+ .far{
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+    margin-left: 133px;
+  }
+
+.contact h3 {
+    font-weight: lighter;
+    padding-top:30px
+  }
+
+  .contact p {
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0 0 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top:40px;
+    margin-bottom:0;
+  }
+
+.contact a {
+    color: #eee;
+    text-decoration: underline;
+  }
+
+a {
+    cursor: pointer;
+  }
+
+.feedback textarea {
+    margin-top: 50px;
+  }
+
+.feedback textarea,
+.feedback input {
+    border: 0;
+    border-bottom: 1px #d2d2d2 solid;
+    transition: .15s ease-in-out;
+    background-color: transparent;
+    width: 300px;
+    position: relative;
+    resize: none;
+    padding: 2px;
+  }
+
+textarea {
+    overflow: auto;
+    outline: none;
+  }
+
+input {
+    line-height: normal;
+    outline: none;
+  }
+
+.feedback.focused textarea,
+ .feedback:focus textarea {
+    box-shadow: none;
+    transition: .3s ease-in-out;
+    height: 120px;
+  }
+
+.feedback textarea {
+    margin-top: 50px;
+  }
+
+.feedback textarea, .feedback input {
+    border: 0;
+    border-bottom: 1px #d2d2d2 solid;
+    background-color: transparent;
+    width: 300px;
+    position: relative;
+    display: inline-block;
+    resize: none;
+    padding: 2px;
+  }
+
+textarea {
+    overflow: auto;
+  }
+
+input{
+   cursor: text;
+}
+
+#feedback-from{
+   display: none;
+}
+
+.send-update{
+   display: none;
+   margin-right:650px;
+   margin-top: 30px;
+   border:1px solid white;
+   padding: 10px;
+   box-sizing: border-box;
+ }
+
+.hiddenDiv{
+   min-width:300px;
+   text-align: right;
+   line-height:26px;
+   padding:0;
+ }
