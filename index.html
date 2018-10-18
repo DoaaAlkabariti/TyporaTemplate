@@ -10,25 +10,19 @@
   </head>
   <body>
 <!--**************************************  header section start  **************************************************************-->
-      <section class="header container fullscreen">
-         <div class="content">
-           <h2>typora</h2>
-           <p class="slogon">
-             /*
-             <a href="" class="typewrite" data-period="1000" data-type='[ " A TRULY MINIMAL MARKDOWN|  ", " NEW WAY TO READ & WRITE MARKDOWN.| ", "I THINK THIS IS THE ONE, ❤IT.| " ]'>
-             <span class="wrap"></span>
-             </a>
-             */
-           </p>
-         </div>
-         <div class="scroll-down-div" onclick="$('#title-bar-feature-btn').trigger('click')">
-           <i class="fa fa-angle-down">
-           <a href="#header"></a></i>
-         </div>
-       </section> 
+<section class="header container fullscreen" id="home" style="height: 379px;">
+<div class="content-resizer" style="top: 89.5px;">
+<h2>typora</h2><p class="slogon">
+  /* <span class="typed-quotes">I think this i</span>
+  <span class="typed-cursor">|</span> */</p>
+</div>
+<div class="scroll-down-div" onclick="$('#title-bar-feature-btn').trigger('click')">
+  <i class="fa fa-angle-down"></i>
+</div>
+</section>
 <!--**************************************   header section end    ************************************************************-->
 <!--**************************************  navBar Section start  *************************************************************-->
-       <nav class="navBar">
+       <nav class="navBar fullscreen">
          <div class="logo">Typora</div>
           <div class="menu">
             <ul>
@@ -306,7 +300,30 @@
         </section>
 <!--*****************************************   download Section end   ****************************** -->
 <!--*****************************************  contact Section start ******************************* -->
-        <section class="contact">
+
+<section id="contact" class="fullscreen" style="background-color: rgb(51, 51, 51); color: rgb(238, 238, 238); text-align: center; margin-top: -40px; height: 307px;"><div class="container">
+  <div class="content-resizer" style="top: 21.5px;">
+    <h3><i class="fa fa-paper-plane"></i></h3>
+    <p style="margin-top:40px; margin-bottom:0;">
+      <a href="mailto:hi@typora.io" target="_blank" style="text-decoration: underline;">Email</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://twitter.com/typora" target="_blank" style="text-decoration: underline;">@typora</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://typora.io/presskit.zip" target="_blank" style="text-decoration: underline;">PressKit</a>4
+    </p>
+  <div class="feedback">
+    <textarea placeholder="have something to say?" id="feedback-content"></textarea>
+    <br>
+    <input placeholder="email address for us to contact you" id="feedback-from" type="email">
+    <div style="min-width:300px; display:inline-block; text-align: right;line-height:26px;padding:0">
+      <div class="feedback-error"></div>
+      <a class="send-update" style="text-align: center">Send</a>
+  </div>
+</div>
+</div>
+</div>
+    <div class="getsocial gs-inline-group">
+    </div>
+  </section>
+        <!-- <section class="contact">
           <div class="container">
             <div class="content-resizer" style="top: 46.5px;">
               <h3><i class="far fa-paper-plane"></i></h3>
@@ -332,7 +349,7 @@
             </div>
             <div class="getsocial gs-inline-group">
           </div>
-        </section>
+        </section> -->
 <!--****************************************** contact Section end  **********************************-->
       <script src="js/jquery3.3.1.js"></script>
       <script src="js/mainjs.js"></script>
